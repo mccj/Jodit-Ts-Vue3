@@ -1,22 +1,8 @@
-# Jodit Vue
+# Jodit Ts Vue 3 Editor
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/WendellAdriel/jodit-vue/blob/master/LICENSE)
 
-[![version][version-badge]][package]
-[![downloads][downloads-badge]][npmcharts]
-[![size][size-badge]][unpkg-dist] [![gzip size][gzip-badge]][unpkg-dist]
 
-[![Watch on GitHub][github-watch-badge]][github-watch]
-[![Star on GitHub][github-star-badge]][github-star]
-[![Tweet][twitter-badge]][twitter]
-
-Vue Wrapper for the **[Jodit Editor](https://github.com/xdan/jodit)**
-
-
-
-
-
-# Jodit Ts Vue 3 Editor
 A Jodit WYSIWYG editor wrapper for vue3
 
 
