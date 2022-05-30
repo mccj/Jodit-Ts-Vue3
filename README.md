@@ -1,7 +1,6 @@
 # Jodit Vue
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/WendellAdriel/jodit-vue/blob/master/LICENSE)
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 
 [![version][version-badge]][package]
 [![downloads][downloads-badge]][npmcharts]
