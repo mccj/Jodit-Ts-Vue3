@@ -1,0 +1,79 @@
+{
+  "name": "jodit-ts-vue3",
+  "version": "0.1.0",
+  "private": false,
+  "main": "src/components/editor.ts",
+  "module": "./dist/jodit-vue.esm.js",
+  "unpkg": "dist/jodit-vue3.umd.min.js",
+  "jsdelivr": "dist/jodit-vue3.umd.min.js",
+  "author": "mccj",
+  "license": "MIT",
+  "description": "Vue wrapper for Jodit Editor",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "homepage": "https://github.com/mccj/Jodit-Ts-Vue3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mccj/Jodit-Ts-Vue3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mccj/Jodit-Ts-Vue3/issues"
+  },
+  "keywords": [
+    "vue",
+    "jodit",
+    "wrapper",
+    "editor",
+    "jodit vue",
+    "wysiwyg"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name jodit-ts-vue3 src/components/editor.ts",
+    "lint": "vue-cli-service lint",
+    "prepublishOnly": "node \"%npm_execpath%\" build"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "jodit": "^3.18.5",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "typescript": "~4.5.5"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
